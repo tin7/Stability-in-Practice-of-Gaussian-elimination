@@ -8,5 +8,5 @@ The book states: "One can learn more about this phenomenon by considering random
 
 In the Matlab code (), an experiment is presented with matrices generated randomly (a random matrix to be an mxm matrix whose entries are independent samples from the real normal distribution with mean zero and standard deviation m^(1/2)), and the growth factor is calculated defined as:
 rho = max |uij| / max |aij|, where u is the reduced matrix of A using Gaussian elimination with partial pivoting. If rho is of order 1, the elimination process is stable. If rho is much larger than 1, instability is expected.
-
+It can be observed that only 2 out of 496 matrices have a value greater than the typical value of m^(1/2).
 ![ratiovsm](https://github.com/tin7/Stability-in-Practice-of-Gaussian-elimination/assets/87256238/bbd40b6d-18b3-4c51-b719-e4c61550f4f8)
